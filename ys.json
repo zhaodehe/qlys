@@ -37,7 +37,7 @@
         "type": "rect",
         "ratio": 1
       },
-      "ext": "https://gitee.com/zhaodehe/qlkj/raw/master/json/PG推送.json"
+      "ext": "./json/PG推送.json"
     },
       {
             "ext": "eyJhcGkiOiJodHRwOi8vdHZib3gucWxrankuY24iLCJ0b2tlbiI6IiJ9",
@@ -85,7 +85,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/yingshiche.json"
+      "ext": "https://notabug.org/qlkj2024/qlkj/json/yingshiche.json"
     },
 
 {
@@ -96,7 +96,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://gitee.com/zhaodehe/qlkj/raw/master/jar/HeChengChaXiu.jar",
+      "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/HeChengChaXiu.jar",
       "ext": "https://gitee.com/zhaodehe/qlkj/raw/master/json/PG推送.json"
     },
 
