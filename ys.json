@@ -1,7 +1,6 @@
 {
-"spider":"./jar/dongchen.jar",
+"spider":"./jar/ql.jar",
 "wallpaper":"https://vi2.xiu123.cn/live/2023/08/15/17/1001v1692091979226192412.png",
-
 "sites":[
 {
       "key": "豆瓣",  
@@ -85,7 +84,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://notabug.org/qlkj2024/qlkj/raw/master/json/yingshiche.json"
+      "ext": "./json/yingshiche.json"
     },
 
 {
@@ -96,8 +95,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/HeChengChaXiu.jar",
-      "ext": "https://notabug.org/qlkj2024/qlkj/raw/master/json/PG推送.json"
+      "jar": "./jar/HeChengChaXiu.jar",
+      "ext": "./json/PG推送.json"
     },
 
 {
@@ -105,11 +104,11 @@
       "name": "苏苏🛰️臻享4K",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/xyqwogg.jar",
+      "jar": "./jar/xyqwogg.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://notabug.org/qlkj2024/qlkj/raw/master/json/alisusu.json"
+      "ext": "./json/alisusu.json"
     },
 
 {
@@ -142,12 +141,12 @@
       "name":"影巢🚜臻享4K",
       "type":3,
       "api":"csp_Hdhive",
-      "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/pg2.jar",
+      "jar": "./jar/pg2.jar",
       "quickSearch":1,
       "changeable":1,
       "filterable":1, 
       "timeout":30, 
-      "ext":"https://notabug.org/qlkj2024/qlkj/raw/master/json/PG推送.json$$$null$$$1"
+      "ext":"./json/PG推送.json$$$null$$$1"
 },
 
 {
@@ -155,12 +154,12 @@
      "name":"玩偶🍺蓝光4K",
      "type":3,
      "api":"csp_Wogg",
-     "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/PG.jar",
+     "jar": "./jar/PG.jar",
      "quickSearch":1, 
      "changeable":1, 
      "filterable":1, 
      "timeout":30, 
-     "ext":"https://notabug.org/qlkj2024/qlkj/raw/master/json/PG推送.json$$$https://wogg.xyz/$$$null$$$1$$$https://notabug.org/qlkj2024/qlkj/raw/master/json/wogg.json"
+     "ext":"./json/PG推送.json$$$https://wogg.xyz/$$$null$$$1$$$https://gitee.com/zhaodehe/qlkj/raw/master/json/wogg.json"
 },
 
 {
@@ -168,12 +167,12 @@
       "name":"校长🛶蓝光4K",
       "type":3,
       "api":"csp_XiaoZhang",
-      "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/PG.jar",
+      "jar": "./jar/PG.jar",
       "quickSearch":1, 
       "changeable":1, 
       "filterable":1,
       "timeout":30,
-      "ext":"https://notabug.org/qlkj2024/qlkj/raw/master/json/PG推送.json$$$https://xzyshd.com$$$null$$$1"
+      "ext":"./json/PG推送.json$$$https://xzyshd.com$$$null$$$1"
 },
 
 {
@@ -437,7 +436,34 @@
       "changeable": 1,
       "ext": "./js/jianpian.js"
     },
+     {
+            "key": "赞赞",
+            "name": "➕1080P┃切片",
+            "type": 3,
+            "jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c (1).txt;md5;bb155c3f0133bbce4756ad52003f5968",
+            "api": "csp_AppYsV2",
+            "ext": "http://111.230.51.151:2323/api.php/app/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
 
+         {
+            "key": "nangua",
+            "name": "🎃┃南瓜┃影视",
+            "type": 3,
+            "playerType": "2",
+            "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
+            "ext": "http://dt.xn--yety82d.love/js/南瓜.js"
+        }, 
+        {
+            "key": "小胡",
+            "name": "🍈️┃小胡┃影视",
+            "type": 3,
+            "api": "http://dt.xn--yety82d.love/js/lib/drpy2.min.js",
+            "ext": "http://dt.xn--yety82d.love/js/小胡.js",
+            "playerType": 2
+        },
 {
       "key": "gg",
       "name": "高光🏝外剧",
@@ -592,7 +618,7 @@
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
-      "ext": "https://notabug.org/qlkj2024/qlkj/raw/master/json/yinyue.json"
+      "ext": "./json/yinyue.json"
     },
 
 {
@@ -602,7 +628,7 @@
       "api": "./js/drpy.min.js",
       "searchable": 0,
       "changeable": 0,
-      "ext": "https://notabug.org/qlkj2024/qlkj/raw/json/js/justlive.js"
+      "ext": "./json/js/justlive.js"
     },        
 
 {
@@ -610,7 +636,7 @@
       "name": "利播🌕韩剧",
       "type": 3,
       "api": "csp_Libvio",
-      "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/spider1.png",
+      "jar": "./jar/spider1.png",
       "searchable": 0,
       "quickSearch": 1,
       "changeable": 1,
@@ -863,7 +889,7 @@
       "key": "NT动漫",
       "name": "NT🎀动漫",
       "type": 3,
-      "api": "https://gitee.com/zhaodehe/qlkj/raw/master/js/drpy2.min.js",
+      "api": "..../js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -875,12 +901,12 @@
       "key": "drpy_js_路漫漫",
       "name": "路漫漫🚌动漫",
       "type": 3,
-      "api": "https://notabug.org/qlkj2024/qlkj/raw/master/js/drpy2.min.js",
+      "api": "./js/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://notabug.org/qlkj2024/qlkj/raw/master/js/lumanman.js"
+      "ext": "https://gitee.com/zhaodehe/qlkj/raw/master/js/lumanman.js"
     },
 
 {
@@ -1026,7 +1052,7 @@
       "name":"哔哩🅱️短剧",
       "type": 3,
       "api": "csp_Bili",
-      "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/xiaohu.jar",
+      "jar": "./jar/xiaohu.jar",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -1038,12 +1064,12 @@
       "name": "混合🚲网盘",
       "type": 3,
       "api": "csp_HunHePan",
-      "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/pg.jar",
+      "jar": "./jar/pg.jar",
       "changeable": 0,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://notabug.org/qlkj2024/qlkj/raw/master/json/PG推送.json",
+      "ext": "./json/PG推送.json",
       "timeout": 30
     },
 
@@ -1052,13 +1078,64 @@
       "name": "易搜🛸网盘",
       "type": 3,
       "api": "csp_Yisou",
-      "jar": "https://notabug.org/qlkj2024/qlkj/raw/master/jar/xiaohu.jar",
+      "jar": "./jar/xiaohu.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt+4k|fhd|auto"
     },
 
+{
+      "key": "夸克盘搜",
+      "name": "夸克🛹网盘",
+      "type": 3,
+      "api": "csp_QuarkPanso",
+      "jar": "./jar/pgliu.jar",
+      "changeable": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/PG推送.json",
+      "timeout": 60
+    },    
+
+    {
+      "key": "盘搜",
+      "name": "盘搜🚢网盘",
+      "type": 3,
+      "api": "csp_AliPS",
+      "jar": "./jar/xiaohu.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+
+    {
+      "key": "纸条",
+      "name": "纸条🚃网盘",
+      "type": 3,
+      "api": "csp_Gitcafe",
+      "jar": "./jar/ttkx.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt+4k|fhd|auto",
+      "timeout": 30
+    },
+
+    {
+      "key": "csp_AliPS",
+      "name": "喵狸🚂网盘",
+      "type": 3,
+      "api": "csp_AliPS",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt+4k|fhd|auto",
+      "timeout": 30
+    },
 
      
 
@@ -1098,4 +1175,3 @@
 "flags":["youku","优酷","优 酷","优酷视频", "qq","腾讯","腾 讯","腾讯视频", "iqiyi", "qiyi","奇艺","爱奇艺","爱 奇 艺", "m1905", "xigua", "letv","leshi","乐视","乐 视", "sohu","搜狐","搜 狐","搜狐视频", "tudou", "pptv", "mgtv","芒果","imgo","芒果TV","芒 果 T V", "bilibili","哔 哩","哔 哩 哔 哩"],
 "ads":["wan.51img1.com","www.72418.com","iqiyi.hbuioo.com","vip.ffzyad.com","https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"]
 }
-
